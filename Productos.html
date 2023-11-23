@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8"> <!-- Le indicamos que muestre carácteres especiales del español -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Tutores</title> <!-- Indicamos el título que nos mostrara en el navegador -->
+	<link rel="stylesheet" type="text/css" href="reset.css"> <!-- Lo colocamos acá pues queremos que nos eliminé le formato antes de nosotros dar el nuestro -->
+	<link rel="stylesheet" type="text/css" href="style2.css"> <!-- Estamos ligando nuestro archivo Css con el html -->
+	<link rel="stylesheet" type="text/css" href="style2-contacto.css">
+</head>
+<body>
+	
+
+	
+	<header> <!-- etiqueta <header></header> Se refiere al encabezado -->
+		<div class="caja">
+			<h1><img src="img/showcase.PNG" alt="Page LOGO" class="tree"></h1> <!-- Lo hacemos así para que la imagen resalte como título. -->
+
+			<nav> <!-- Etiqueta <nav></nav> para indicar que corresponde al panel de navegación-->
+				<ul>
+					<li><a href="index.html">Inicio</a></li> <!-- referenciamos páginas (es como crear un hipervinculo)-->
+					<li><a href="Productos.html">Tutores disponibles</a></li> <!-- referenciamos páginas (es como crear un hipervinculo)-->
+					<li><a href="registro-login.html">Iniciar sesión</a></li> <!-- referenciamos páginas con <a href=""></a>-->
+					<li><a href="registro-login.html">Sé tutor</a></li> <!-- referenciamos páginas con <a href=""></a>-->
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="central">
+		<ul class="productos"><!-- Creamos una lista no ordenada para poder mostrar los productos a ofrecer -->
+			<li>
+				<h2>Juan</h2>
+				<a href="seccion-perfil-usuario.html">Ver perfil completo</a>
+				<img src="img/std1.jpeg" class="imagenproduc1"><a href="contacto1.html">Contactar</a>
+				<p class="producto-descripcion">Estudiante de ingeniería en Cs. de la computación</p>
+				<p class="producto-precio">$ 100.00 por sesión</p>
+				<p class="producto-precio">$ 350.00 por mes</p>
+			</li> <!-- Etiqueta de contenido para los items de nuestra lista -->
+			<li>
+				<h2>Fernando</h2>
+				<a href="seccion-perfil-usuario2.html">Ver perfil completo</a>
+				<img src="img/std2.jpeg" class="imagenproduc2"><a href="contacto1.html">Contactar</a>
+				<p class="producto-descripcion">Estudiante de ingeniería en Cs. de la computación</p>
+				<p class="producto-precio">$ 100.00 por clase</p>
+			</li>
+			<li>
+				<h2>Rodrigo</h2>
+				<a href="seccion-perfil-usuario3.html">Ver perfil completo</a>
+				<img src="img/std3.jfif" class="imagenproduc3"><a href="contacto1.html">Contactar</a>
+				<p class="producto-descripcion">Estudiante de ingeniería en Cs. de la computación</p>
+				<p class="producto-precio">$ 70.00 por sesión</p>
+			</li>
+		</ul>
+
+		<!--COMENTARIOS-->
+
+		<h1>COMENTARIOS:</h1>
+		
+
+		<section class="contenedor-comentarios">
+			<div class="area-comentar">
+				<div class="avatar">
+					<img src="img/std1.jpg" alt="img">
+				</div>
+				<form action="#" method="post" class="inputs-comentarios">
+					<textarea name="" class="area-comentario"></textarea>
+					<div class="botones-comentar">
+						<div class="boton-subir-archivo">
+							<label class="boton-file" for="adjuntar">
+								<i class="far fa-image"></i>
+								Adjuntar archivo
+							</label>
+							<input type="file" name="" value="" placeholder="" id="adjuntar">
+						</div>
+						<button class="boton-enviar" type="sutmit">
+							<i class="fas fa-paper-plane"></i>
+							Enviar
+						</button>
+					</div>
+				</form>
+			</div>
+			<div class="publicacion-realizada">
+				<div class="usuario-publico">
+					<div class="avatar">
+						<img src="img/std1.jpg" alt="img">
+					</div>
+					<div class="contenido-publicacion">
+						<h4>Carolina de la valle</h4>
+						<ul>
+							<li>Hace 30 min</li>
+						</ul>
+					</div>
+					<div class="menu-comentario">
+						<i class="fas fa-pen"></i>
+						<ul class="menu">
+							<li><a href="">Editar</a></li>
+							<li><a href="">Eliminar</a></li>
+						</ul>
+					</div>
+				</div>
+				<p>Gran atención por parte de los tutores realmente puedo decir que cumplen con lo prometido.</p>
+				<div class="archivo-publicado">
+					<img src="img/imgproduct.jpg" alt="img">
+				</div>
+				<div class="botones-comentario">
+					<button type="" class="boton-puntuar">
+						<i class="fas fa-thumbs-up"></i>
+						45
+					</button>
+					<button type="" class="boton-responder">
+						Comentar
+					</button>
+				</div>
+			</div>
+			<div class="comentarios-usuarios">
+				<!-- comentario principal -->
+				<div class="comentario-principal-usuario">
+					<div class="avatar">
+						<img src="img/std1.jpg" alt="img">
+					</div>
+					<div class="comentario">
+						<div class="usuario-comentario">
+							<div class="texto">
+								<a href="#" title="" class="nombre-usuario">Camila valle</a> Muy de acuerdo, todos cumplen con los requisitos para poder entender los temas a la perfección.
+								<div class="menu-comentario">
+									<i class="fas fa-pen"></i>
+									<ul class="menu">
+										<li><a href="">Editar</a></li>
+										<li><a href="">Eliminar</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="botones-comentario">
+								<button type="" class="boton-puntuar">
+									<i class="fas fa-thumbs-up"></i>
+									5
+								</button>
+								<button type="" class="boton-responder">
+									responrder
+								</button>
+								<span class="tiempo-comentario">
+									hece 3 min
+								</span>
+							</div>
+						</div>
+		
+						<!-- contenedor sub comentarios -->
+						<div class="contenedor-sub-comentarios">
+							<!-- sub-comentario uno -->
+							<div class="comentario-principal-usuario">
+								<div class="avatar">
+									<img src="img/std1.jpg" alt="img">
+								</div>
+								<div class="comentario">
+									<div class="usuario-comentario">
+										<div class="texto">
+											<a href="#" title="" class="nombre-usuario">Esteban Hernandez</a> En efecto, todos de calidad!!!
+											<div class="menu-comentario">
+												<i class="fas fa-pen"></i>
+												<ul class="menu">
+													<li><a href="">Editar</a></li>
+													<li><a href="">Eliminar</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="botones-comentario">
+											<button type="" class="boton-puntuar">
+												<i class="fas fa-thumbs-up"></i>
+												12
+											</button>
+											<button type="" class="boton-responder">
+												responrder
+											</button>
+											<span class="tiempo-comentario">
+												hece 3 min
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		
+					</div>
+		
+				</div>
+		
+				<div class="comentar-publicacion">
+					<div class="avatar">
+						<img src="img/std1.jpg" alt="img">
+					</div>
+				   <form action="#" method="post" class="comentar-comentario">
+					   <input type="text" name="" value="" placeholder="">
+					   <button type="" class="boton-enviar">
+						   <i class="fas fa-paper-plane"></i>
+					   </button>
+				   </form>
+				</div>
+				
+			</div>
+		</section>
+
+		<style>
+
+	/*COMENTARIOOOOOS STYLO EMPIEZA  line 200-496*/
+	.contenedor-comentarios {
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction: column;
+					width: 100%;
+				}
+				
+				.contenedor-comentarios img {
+					width: 100%;
+				}
+
+				.area-comentar {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			margin-bottom: 1.5rem;
+			padding: 18px;
+			background-color: #fff;
+			box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
+			border-radius: 12px;
+		}
+
+		.comentarios-usuarios {
+			width: calc(100% - 2.5rem);
+		}
+
+		.contenedor-comentarios a {
+			text-decoration: none;
+		}
+
+		.comentar-publicacion .avatar,
+		.publicacion-realizada .usuario-publico .avatar,
+		.contenedor-comentarios .comentario-principal-usuario .avatar,
+		.area-comentar .avatar {
+			background-color: #F4F4F4;
+			display: flex;
+			width: 65px;
+			height: 65px;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.comentarios-usuarios .nombre-usuario {
+			font-weight: bold;
+			margin-right: .5rem;
+			color: inherit;
+		}
+		/* botones comentar */
+		.boton-subir-archivo {
+			position: relative;
+			display: inline-block;
+		}
+
+		.boton-subir-archivo input[type="file"] {
+			appearance: none;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			position: absolute;
+			opacity: 0;
+			visibility: hidden;
+			width: 0;
+			height: 0;
+		}
+
+		.boton-file,
+		.boton-enviar {
+			display: inline-block;
+			border: 0;
+			background-color: #374D71;
+			padding: 7px 15px;
+			margin-right: .5rem;
+			color: #fff;
+			border-radius: 8px;
+			cursor: pointer;
+			transition: background-color ease-in 200ms;
+		}
+
+		.boton-file:hover,
+		.boton-enviar:hover {
+			background-color: #4C6FA7;
+		}
+
+		/* fin */
+		.contenedor-comentarios .comentario-principal-usuario .comentario,
+		.area-comentar .inputs-comentarios {
+			flex-grow: 1;
+			flex-basis: 0;
+			margin-left: .5rem;
+		}
+
+		.area-comentar .inputs-comentarios {
+			margin-left: 1rem;
+		}
+
+		.contenedor-comentarios .comentario-principal-usuario .texto,
+		.area-comentar .inputs-comentarios .area-comentario {
+			border: 0;
+			background-color: #F0F0F0;
+			display: block;
+			width: 100%;
+			border-radius: 12px;
+			margin-bottom: .5rem;
+		}
+
+		.botones-comentario span.tiempo-comentario {
+			font-size: 0.8rem !important;
+			color: #9F9F9F;
+			margin-left: .25rem;
+		}
+
+		.area-comentar .inputs-comentarios .area-comentario {
+			padding: 12px 15px;
+		}
+
+		.area-comentar .inputs-comentarios .botones-comentar {
+			display: flex;
+		}
+
+		/* comentarios de usuario */
+		.comentarios-usuarios .comentario-principal-usuario {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.comentarios-usuarios .usuario-comentario {
+			width: 100%;
+			display: block;
+			margin-bottom: 0.75rem;
+			position: relative;
+		}
+
+		.menu-comentario {
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			background-color: #E9E9E9;
+			border-radius: 50%;
+			display: none;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+		}
+		.comentarios-usuarios .usuario-comentario .menu-comentario {
+			top: 5px;
+			right: -15px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+		}
+
+		.comentarios-usuarios .usuario-comentario:hover .menu-comentario {
+			display: flex;
+		}
+
+
+
+		.publicacion-realizada .menu-comentario {
+			background-color: #F4F4F4;
+			display: flex;
+			right: 0;
+			
+		}
+
+		.menu-comentario .menu {
+			list-style: none;
+			position: absolute;
+			right: 100%;
+			background-color: #fff;
+			box-shadow: 0 0 5px 1px rgba(0, 0, 0, .2);
+			border-radius: 8px;
+			padding-top: 7px;
+			padding-bottom: 7px;
+			opacity: 0;
+			visibility: hidden;
+			transition: all ease-in 200ms;
+		}
+
+		.menu-comentario:hover .menu {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		.menu-comentario .menu a {
+			display: block;
+			padding: 7px 15px;
+			color: inherit;
+		}
+
+		.menu-comentario .menu a:hover {
+			background-color: #E1E1E1;
+		}
+
+		.publicacion-realizada .usuario-publico .avatar,
+		.comentarios-usuarios .comentario-principal-usuario .avatar {
+			width: 45px;
+			height: 45px;
+		}
+
+		.comentarios-usuarios .comentario-principal-usuario .texto {
+			padding: 10px 15px;
+			width: auto;
+			display: inline-block;
+			max-width: 100%;
+			margin-bottom: .25rem;
+			font-size: 0.9rem;
+			position: relative;
+			padding-right: 1.65rem;
+		}
+
+		.comentarios-usuarios .comentario-principal-usuario .comentar-comentario {
+			width: 100%;
+			display: flex;
+		}
+		.comentarios-usuarios .comentar-publicacion input[type="text"] {
+			border: 0;
+			background-color: #E1E1E1;
+			flex-grow: 1;
+			flex-basis: 0;
+			padding: 8px 10px;
+			font-size: .9rem;
+			border-radius: 8px;
+			margin-right: 0.5rem;
+			margin-left: 0.5rem;
+		}
+
+		.botones-comentario {
+			display: block;
+		}
+
+		.botones-comentario button {
+			display: inline-block;
+			border: 0;
+			padding: 3px 8px;
+			font-size: .8rem;
+			border-radius: 8px;
+			cursor: pointer;
+		}
+
+		.botones-comentario button:hover {
+			background-color: #D5D8E1;
+		}
+
+		.comentar-publicacion .avatar,
+		.contenedor-sub-comentarios .comentario-principal-usuario .avatar {
+			width: 32px;
+			height: 32px;
+		}
+
+		.boton-enviar i,
+		.boton-file i,
+		.boton-puntuar i,
+		.boton-responder i {
+			margin-right: .5rem;
+		}
+
+		/* publicacion realizada */
+		.publicacion-realizada {
+			background-color: #F4F4F4;
+			margin-bottom: 1.5rem;
+		}
+
+		.publicacion-realizada .usuario-publico {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			margin-bottom: .5rem;
+			position: relative;
+		}
+
+		.publicacion-realizada .usuario-publico .contenido-publicacion {
+			margin-left: 1rem;
+		}
+
+		.comentar-publicacion {
+			display: flex;
+			width: 100%;
+		}
+
+		.comentar-publicacion .comentar-comentario {
+			flex-grow: 1;
+			flex-basis: 0;
+			display: flex;
+			align-items: center;
+		}
+
+		.publicacion-realizada p {
+			/*background-color: white;*/
+			margin-bottom: 0.5rem;
+			font-size: 0.9em;
+		}
+		.archivo-publicado img {
+			
+			position: relative;
+			width: 100px;
+			border-radius: 8px;
+			
+		}
+
+		.publicacion-realizada .contenido-publicacion ul {
+			list-style: none;
+			font-size: 0.8em;
+			color: #000000;
+		}
+
+
+/*COMENTARIOOOOOS STYLO TERMINA*/
+			.mensaje a {
+				color: inherit;
+				margin-right: .5rem;
+				display: inline-block;
+			}
+			.mensaje a:hover {
+				color: #309B76;
+				transform: scale(1.4)
+			}
+			</style>
+		
+	</main> <!-- Etiqueta específica para el cuerpo de la página -->
+
+
+    <footer class="footer">
+        <h3>©Copyright TutorTree</h3>
+    </footer>
+
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

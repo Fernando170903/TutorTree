@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+
+
+
+<style type="text/css">
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    line-height: 1.4;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: #404040;
+    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
+}
+
+
+.body-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #7ee394;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.627 0l.83.828-1.415 1.415L51.8 0h2.827zM5.373 0l-.83.828L5.96 2.243 8.2 0H5.374zM48.97 0l3.657 3.657-1.414 1.414L46.143 0h2.828zM11.03 0L7.372 3.657 8.787 5.07 13.857 0H11.03zm32.284 0L49.8 6.485 48.384 7.9l-7.9-7.9h2.83zM16.686 0L10.2 6.485 11.616 7.9l7.9-7.9h-2.83zm20.97 0l9.315 9.314-1.414 1.414L34.828 0h2.83zM22.344 0L13.03 9.314l1.414 1.414L25.172 0h-2.83zM32 0l12.142 12.142-1.414 1.414L30 .828 17.272 13.556l-1.414-1.414L28 0h4zM.284 0l28 28-1.414 1.414L0 2.544V0h.284zM0 5.373l25.456 25.455-1.414 1.415L0 8.2V5.374zm0 5.656l22.627 22.627-1.414 1.414L0 13.86v-2.83zm0 5.656l19.8 19.8-1.415 1.413L0 19.514v-2.83zm0 5.657l16.97 16.97-1.414 1.415L0 25.172v-2.83zM0 28l14.142 14.142-1.414 1.414L0 30.828V28zm0 5.657L11.314 44.97 9.9 46.386l-9.9-9.9v-2.828zm0 5.657L8.485 47.8 7.07 49.212 0 42.143v-2.83zm0 5.657l5.657 5.657-1.414 1.415L0 47.8v-2.83zm0 5.657l2.828 2.83-1.414 1.413L0 53.456v-2.83zM54.627 60L30 35.373 5.373 60H8.2L30 38.2 51.8 60h2.827zm-5.656 0L30 41.03 11.03 60h2.828L30 43.858 46.142 60h2.83zm-5.656 0L30 46.686 16.686 60h2.83L30 49.515 40.485 60h2.83zm-5.657 0L30 52.343 22.343 60h2.83L30 55.172 34.828 60h2.83zM32 60l-2-2-2 2h4zM59.716 0l-28 28 1.414 1.414L60 2.544V0h-.284zM60 5.373L34.544 30.828l1.414 1.415L60 8.2V5.374zm0 5.656L37.373 33.656l1.414 1.414L60 13.86v-2.83zm0 5.656l-19.8 19.8 1.415 1.413L60 19.514v-2.83zm0 5.657l-16.97 16.97 1.414 1.415L60 25.172v-2.83zM60 28L45.858 42.142l1.414 1.414L60 30.828V28zm0 5.657L48.686 44.97l1.415 1.415 9.9-9.9v-2.828zm0 5.657L51.515 47.8l1.414 1.413 7.07-7.07v-2.83zm0 5.657l-5.657 5.657 1.414 1.415L60 47.8v-2.83zm0 5.657l-2.828 2.83 1.414 1.413L60 53.456v-2.83zM39.9 16.385l1.414-1.414L30 3.658 18.686 14.97l1.415 1.415 9.9-9.9 9.9 9.9zm-2.83 2.828l1.415-1.414L30 9.313 21.515 17.8l1.414 1.413 7.07-7.07 7.07 7.07zm-2.827 2.83l1.414-1.416L30 14.97l-5.657 5.657 1.414 1.415L30 17.8l4.243 4.242zm-2.83 2.827l1.415-1.414L30 20.626l-2.828 2.83 1.414 1.414L30 23.456l1.414 1.414zM56.87 59.414L58.284 58 30 29.716 1.716 58l1.414 1.414L30 32.544l26.87 26.87z' fill='%2377757b' fill-opacity='0.33' fill-rule='evenodd'/%3E%3C/svg%3E");    
+    
+}
+
+.contenedor-sesion {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, .1);
+    padding: 20px;
+}
+.contenedor-sesion .seccion {
+    width: 50%;
+}
+.contenedor-sesion .seccion:first-child{
+    padding-right: 45px;
+    border-right: 1px solid rgba(0, 0, 0, .1575);
+}
+.contenedor-sesion .seccion:last-child{
+    padding-left: 45px;
+}
+
+.contenedor-sesion .titulo-seccion h5 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    margin-top: 0 !important;
+}
+
+.divisor {
+    width: 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: -25px;
+}
+.divisor .contenedor-icono {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 193, 172)010;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    color: #B2B2B2;
+}
+
+.form-secion {
+    display: block;
+}
+.form-secion .form-input {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.form-secion .form-input .icono {
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    font-size: 1.3rem;
+    color: #C8C8C8;
+}
+.form-secion .form-input input[type="password"],
+.form-secion .form-input input[type="email"],
+.form-secion .form-input input[type="text"] {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    padding: 0 0 8px 0;
+    padding-right: 40px;
+}
+.form-secion .form-input input[type="password"]:focus,
+.form-secion .form-input input[type="email"]:focus,
+.form-secion .form-input input[type="text"]:focus {
+    border: 0;
+    border-bottom: 1px solid #6686EE;
+}
+.form-secion .form-input input[type="password"]:focus ~ .icono i,
+.form-secion .form-input input[type="email"]:focus ~ .icono i,
+.form-secion .form-input input[type="text"]:focus ~ .icono i {
+    color: #6686EE;
+}
+.form-secion .form-input input[type="password"]:invalid,
+.form-secion .form-input input[type="email"]:invalid,
+.form-secion .form-input input[type="text"]:invalid {
+    color: #FF4D4D;
+    box-shadow: none;
+    border-bottom: 1px solid #FF4D4D;
+    background-color: transparent !important;
+}
+.form-secion .form-input input[type="password"]:invalid ~ .icono i,
+.form-secion .form-input input[type="email"]:invalid ~ .icono i,
+.form-secion .form-input input[type="text"]:invalid ~ .icono i {
+    color: #FF4D4D;
+}
+.form-secion .form-terminos {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+.form-secion .form-terminos input[type="checkbox"] {
+    margin-right: .5rem;
+    cursor: pointer;
+}
+.form-secion .form-terminos a {
+    text-decoration: none;
+    color: #5DAFFB;
+    font-weight: bold;
+}
+.form-secion .form-terminos a:hover {
+    color: #3C7DB9;
+}
+
+.btn-form i {
+    margin-right: .75rem;
+}
+
+.contenedor-sesion .btn-form {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: all ease-in 100ms;
+}
+.contenedor-sesion .btn-form.registro {
+    background-color: #5ED043;
+}
+.contenedor-sesion .btn-form.registro:hover {
+    background-color: #53B93B;
+}
+.contenedor-sesion .btn-form.registro:active {
+    background-color: #449730;
+}
+
+.inciar-con {
+    display: block;
+    margin-bottom: 2rem;
+}
+.inciar-con .btn-form {
+    margin-bottom: 1rem;
+}
+.contenedor-sesion .btn-form.facebook {
+    background-color: #436BD0;
+}
+.contenedor-sesion .btn-form.facebook:active {
+    background-color: #2F54B1;
+}
+.contenedor-sesion .btn-form.google {
+    background-color: #FF3D3D;
+}
+.contenedor-sesion .btn-form.google:active {
+    background-color: #E52D2D;
+}
+.contenedor-sesion .btn-form.iniciar {
+    background-color: #282835;
+}
+.contenedor-sesion .btn-form.iniciar:active {
+    background-color: #1D1D25;
+}
+
+.carta-seccion {
+    display: block;
+    padding: 15px;
+    font-size: .9em;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+.carta-seccion.peligro {
+    background-color: #FF3D3D;
+}
+.carta-seccion.alerta {
+    background-color: #FFB43D;
+}
+.carta-seccion.acierto {
+    background-color: #56CF3E;
+}
+
+.contenido-error .seccion-contenedor {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+.contenido-error .seccion-contenedor:last-child {
+    margin-bottom: 0;
+}
+.contenido-error .seccion-contenedor h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.boton-escape {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #1D1D25;
+    color: #FFFFFF;
+}
+
+@media (max-width: 780px) {
+    .body-contenedor {
+        height: auto;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .contenedor-sesion {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .contenedor-sesion .seccion {
+        width: 100%;
+        border: 0 !important;
+        padding: 0 !important;
+    }
+    .divisor {
+        width: 100%;
+        height: 0;
+        justify-content: center;
+        margin-top: 3.5rem;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid rgba(0, 0, 0, .1575);
+        left: 0;
+    }
+    .contenedor-sesion .seccion:first-child {
+        order: 1;
+    }
+    .contenedor-sesion .seccion:last-child {
+        order: -2;
+    }
+}
+</style>
+<!--==========================
+=            html            =
+===========================-->
+<div class="body-contenedor">
+    
+    <div class="contenedor-sesion">
+        
+        <div class="seccion">
+            <div class="titulo-seccion">
+                <h5>Registrar</h5>
+            </div>
+            <form autocomplete="off" class="form-secion" action="#" method="post" accept-charset="utf-8">
+                <div class="form-input">
+                    <input type="text" placeholder="Nombre" pattern="[A-Za-z0-9 ]{1,30}">
+                    <div class="icono">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <input type="email" placeholder="Correo">
+                    <div class="icono">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <input type="password" placeholder="Cotraseña" minlength="8">
+                    <div class="icono">
+                        <i class="fas fa-unlock"></i>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <input type="password" placeholder="Repetir Cotraseña"  minlength="8">
+                    <div class="icono">
+                        <i class="fas fa-unlock"></i>
+                    </div>
+                </div>
+                <div class="form-terminos">
+                    <input type="checkbox" id="acepto" value="">
+                    <span>
+                        Aceptar los
+                        <a href="#" title="">términos</a> y 
+                        <a href="#" title="">condiciones</a>
+                    </span>
+                </div>
+                <div class="form-boton">
+                    <button type="submit" class="btn-form registro">
+                        Registrar
+                    </button>
+                </div>
+            </form>
+            <!-- cambia el color de la carta con acierto, alerta y peligro -->
+            <!-- <div class="carta-seccion acierto">
+                El usuario o contraseña es incorrecto
+            </div> -->
+        </div>
+        <div class="divisor">
+            <div class="contenedor-icono">
+                <i class="far fa-address-card"></i>
+            </div>
+        </div>
+        <div class="seccion">
+            <div class="titulo-seccion">
+                <h5>Iniciar sesión</h5>
+            </div>
+            <div class="inciar-con">
+                <div class="form-boton">
+                    <button type="submit" class="btn-form facebook">
+                        <i class="fab fa-facebook-square"></i>
+                        facebook
+                    </button>
+                </div>
+                <div class="form-boton">
+                    <button type="submit" class="btn-form google">
+                        <i class="fab fa-google"></i>
+                        Google
+                    </button>
+                </div>
+            </div>
+            <form class="form-secion" action="#" method="post" accept-charset="utf-8">
+                <div class="form-input">
+                    <input type="email" placeholder="Correo">
+                    <div class="icono">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <input type="password" placeholder="Cotraseña" minlength="8">
+                    <div class="icono">
+                        <i class="fas fa-unlock"></i>
+                    </div>
+                </div>
+                <div class="form-boton" >
+                    <button type="submit" class="btn-form iniciar" >
+                        Iniciar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="seccion-contenedor">
+        <div class="botones-escape">
+   
+            <a class="boton-escape" href="index.html" title="">Ir a inicio</a>
+        </div>
+    </div>
+</div>
+<!--====  End of html  ====-->
+
+
+<style>
+.mensaje a {
+    color: inherit;
+    margin-right: .5rem;
+    display: inline-block;
+}
+.mensaje a:hover {
+    color: #309B76;
+    transform: scale(1.4)
+}
+</style>
+<div class="mis-redes" style="display: block;position: fixed;bottom: 1rem;left: 1rem; opacity: 0.5; z-index: 1000;">
+    <p style="font-size: .75rem;">TutorTree</p>
+    <div>
+        <a target="_blank" href="pagina-404.html"><i class="fab fa-facebook-square"></i></a>
+        <a target="_blank" href="pagina-404.html"><i class="fab fa-twitter"></i></a>
+        <a target="_blank" href="pagina-404.html"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="pagina-404.html"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</div>
+<!--====  End of tarjeta  ====-->
+</body>
+
+</html>

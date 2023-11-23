@@ -1,0 +1,304 @@
+body{
+	background-color: #7ee394;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.627 0l.83.828-1.415 1.415L51.8 0h2.827zM5.373 0l-.83.828L5.96 2.243 8.2 0H5.374zM48.97 0l3.657 3.657-1.414 1.414L46.143 0h2.828zM11.03 0L7.372 3.657 8.787 5.07 13.857 0H11.03zm32.284 0L49.8 6.485 48.384 7.9l-7.9-7.9h2.83zM16.686 0L10.2 6.485 11.616 7.9l7.9-7.9h-2.83zm20.97 0l9.315 9.314-1.414 1.414L34.828 0h2.83zM22.344 0L13.03 9.314l1.414 1.414L25.172 0h-2.83zM32 0l12.142 12.142-1.414 1.414L30 .828 17.272 13.556l-1.414-1.414L28 0h4zM.284 0l28 28-1.414 1.414L0 2.544V0h.284zM0 5.373l25.456 25.455-1.414 1.415L0 8.2V5.374zm0 5.656l22.627 22.627-1.414 1.414L0 13.86v-2.83zm0 5.656l19.8 19.8-1.415 1.413L0 19.514v-2.83zm0 5.657l16.97 16.97-1.414 1.415L0 25.172v-2.83zM0 28l14.142 14.142-1.414 1.414L0 30.828V28zm0 5.657L11.314 44.97 9.9 46.386l-9.9-9.9v-2.828zm0 5.657L8.485 47.8 7.07 49.212 0 42.143v-2.83zm0 5.657l5.657 5.657-1.414 1.415L0 47.8v-2.83zm0 5.657l2.828 2.83-1.414 1.413L0 53.456v-2.83zM54.627 60L30 35.373 5.373 60H8.2L30 38.2 51.8 60h2.827zm-5.656 0L30 41.03 11.03 60h2.828L30 43.858 46.142 60h2.83zm-5.656 0L30 46.686 16.686 60h2.83L30 49.515 40.485 60h2.83zm-5.657 0L30 52.343 22.343 60h2.83L30 55.172 34.828 60h2.83zM32 60l-2-2-2 2h4zM59.716 0l-28 28 1.414 1.414L60 2.544V0h-.284zM60 5.373L34.544 30.828l1.414 1.415L60 8.2V5.374zm0 5.656L37.373 33.656l1.414 1.414L60 13.86v-2.83zm0 5.656l-19.8 19.8 1.415 1.413L60 19.514v-2.83zm0 5.657l-16.97 16.97 1.414 1.415L60 25.172v-2.83zM60 28L45.858 42.142l1.414 1.414L60 30.828V28zm0 5.657L48.686 44.97l1.415 1.415 9.9-9.9v-2.828zm0 5.657L51.515 47.8l1.414 1.413 7.07-7.07v-2.83zm0 5.657l-5.657 5.657 1.414 1.415L60 47.8v-2.83zm0 5.657l-2.828 2.83 1.414 1.413L60 53.456v-2.83zM39.9 16.385l1.414-1.414L30 3.658 18.686 14.97l1.415 1.415 9.9-9.9 9.9 9.9zm-2.83 2.828l1.415-1.414L30 9.313 21.515 17.8l1.414 1.413 7.07-7.07 7.07 7.07zm-2.827 2.83l1.414-1.416L30 14.97l-5.657 5.657 1.414 1.415L30 17.8l4.243 4.242zm-2.83 2.827l1.415-1.414L30 20.626l-2.828 2.83 1.414 1.414L30 23.456l1.414 1.414zM56.87 59.414L58.284 58 30 29.716 1.716 58l1.414 1.414L30 32.544l26.87 26.87z' fill='%2377757b' fill-opacity='0.33' fill-rule='evenodd'/%3E%3C/svg%3E");    
+
+}
+
+header{
+	background-color: #7ee394;
+	 background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.627 0l.83.828-1.415 1.415L51.8 0h2.827zM5.373 0l-.83.828L5.96 2.243 8.2 0H5.374zM48.97 0l3.657 3.657-1.414 1.414L46.143 0h2.828zM11.03 0L7.372 3.657 8.787 5.07 13.857 0H11.03zm32.284 0L49.8 6.485 48.384 7.9l-7.9-7.9h2.83zM16.686 0L10.2 6.485 11.616 7.9l7.9-7.9h-2.83zm20.97 0l9.315 9.314-1.414 1.414L34.828 0h2.83zM22.344 0L13.03 9.314l1.414 1.414L25.172 0h-2.83zM32 0l12.142 12.142-1.414 1.414L30 .828 17.272 13.556l-1.414-1.414L28 0h4zM.284 0l28 28-1.414 1.414L0 2.544V0h.284zM0 5.373l25.456 25.455-1.414 1.415L0 8.2V5.374zm0 5.656l22.627 22.627-1.414 1.414L0 13.86v-2.83zm0 5.656l19.8 19.8-1.415 1.413L0 19.514v-2.83zm0 5.657l16.97 16.97-1.414 1.415L0 25.172v-2.83zM0 28l14.142 14.142-1.414 1.414L0 30.828V28zm0 5.657L11.314 44.97 9.9 46.386l-9.9-9.9v-2.828zm0 5.657L8.485 47.8 7.07 49.212 0 42.143v-2.83zm0 5.657l5.657 5.657-1.414 1.415L0 47.8v-2.83zm0 5.657l2.828 2.83-1.414 1.413L0 53.456v-2.83zM54.627 60L30 35.373 5.373 60H8.2L30 38.2 51.8 60h2.827zm-5.656 0L30 41.03 11.03 60h2.828L30 43.858 46.142 60h2.83zm-5.656 0L30 46.686 16.686 60h2.83L30 49.515 40.485 60h2.83zm-5.657 0L30 52.343 22.343 60h2.83L30 55.172 34.828 60h2.83zM32 60l-2-2-2 2h4zM59.716 0l-28 28 1.414 1.414L60 2.544V0h-.284zM60 5.373L34.544 30.828l1.414 1.415L60 8.2V5.374zm0 5.656L37.373 33.656l1.414 1.414L60 13.86v-2.83zm0 5.656l-19.8 19.8 1.415 1.413L60 19.514v-2.83zm0 5.657l-16.97 16.97 1.414 1.415L60 25.172v-2.83zM60 28L45.858 42.142l1.414 1.414L60 30.828V28zm0 5.657L48.686 44.97l1.415 1.415 9.9-9.9v-2.828zm0 5.657L51.515 47.8l1.414 1.413 7.07-7.07v-2.83zm0 5.657l-5.657 5.657 1.414 1.415L60 47.8v-2.83zm0 5.657l-2.828 2.83 1.414 1.413L60 53.456v-2.83zM39.9 16.385l1.414-1.414L30 3.658 18.686 14.97l1.415 1.415 9.9-9.9 9.9 9.9zm-2.83 2.828l1.415-1.414L30 9.313 21.515 17.8l1.414 1.413 7.07-7.07 7.07 7.07zm-2.827 2.83l1.414-1.416L30 14.97l-5.657 5.657 1.414 1.415L30 17.8l4.243 4.242zm-2.83 2.827l1.415-1.414L30 20.626l-2.828 2.83 1.414 1.414L30 23.456l1.414 1.414zM56.87 59.414L58.284 58 30 29.716 1.716 58l1.414 1.414L30 32.544l26.87 26.87z' fill='%2377757b' fill-opacity='0.33' fill-rule='evenodd'/%3E%3C/svg%3E");    
+	padding: 20px 0; /*Porpiedad para espaciamiento interno, colocamso 20px de parte superior e inferior, pero de 0 en los laterales*/
+}
+
+.caja{
+	width: 1000px; /*Le ponemos*/
+	position: relative; /*posición relativa a la posicón absoluta que habíamos puesto anteriormente*/
+	margin: 0 auto; /*Margen de 0 en parte superior e inferior, y aútomatico en los bordes*/
+}
+.tree {
+    font-size: 100px;
+    height: 180px;
+    padding: 20px -0px;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline; /*Le decimos que el display de las listas no debe ocupar el 100% de la página, solo lo necesario por carácter*/
+	margin: 0 0 0 15px; /*primer margen hacia arriba/ segundo margen hacia derecha / 3ro margen hacia abajop / margen a la izquierda*/
+}
+
+nav a{
+	text-transform: uppercase; /*Instrucción para poner en máyusculas*/
+	color: #000000; /*Color de la letra negro*/
+	font-weight: bold; /*Para ponerlo en negritas*/
+	font-size: 22px; /*Tamaño de la fuente de 22 pixeles*/
+	text-decoration: none; /*Para quitar el subrayadio*/
+}
+
+nav a:hover{ /*CON LA ETIQUETA HOVER LO QUE HACEMOS ES QUE DETECTE SI EL MOUSE TIENE MOVIMIENTO*/
+	color: #C78C19; /*Color mostaza*/
+	text-decoration: underline; /*Indicamos que se subraye*/
+}
+
+.productos{ /*Creamos un selector para poder decirle que queremos que esté centrado y que ocupe cierto ancho*/
+	background-color: #7ee394;
+	width: 940px; /*Le ponemos*/
+	position: relative; /*posición relativa a la posicón absoluta que habíamos puesto anteriormente*/
+	margin: 0 auto; /*Margen de 0 en parte superior e inferior, y aútomatico en los bordes*/
+	padding: 50px; /*Porpiedad para espaciamiento externo, colocamso 20px de parte superior e inferior*/
+}
+
+.productos li{
+	background-color: #7ee394;
+	display: inline-block; /*Le indicamos que ocupe lo necesario y se nos permita alterar el interior*/
+	text-align: center; /*Alineamos todos los textos al centro*/
+	width: 29%; /*Le indicamos que cada elemento ocupe el 29% del espacio*/
+	vertical-align: top ;/*Indicamos que la alineación sea en la vertical*/
+	margin: 0 1.5%; /*margen de 0 en superior e inferior, pero de 1.5% en los laterales entre los objetos*/
+	padding: 30px 10px; /*Espaciamiento interno entre el título y las ímágenes, 30px en vertical y 20px en horizontal*/
+	/*Pero, sí hacemos lo anterior van a salir del tamaño asignado a la página, por lo que vamos a usar una propiedad*/
+	box-sizing: border-box; /*Tamaño de la caja, border-box hace referencia a que el límite del espacio que va a ser definido va a ser el borde de los objetos*/
+	border: 2px solid #000000; 
+	border-radius: 10px; /*Instrucción para redondear bordes. Indicamos que todos los bordes en cada esquina tienen un radio de 10px*/
+}
+
+.productos li:hover{
+	
+	border-color: #C78C19; /*color mostaza a los bordes cuando pase el mouse*/
+}
+
+.productos li:active{ 
+	
+	border-color: black;/*Color verde cuando se da click*/
+}
+
+.productos h2{
+	font-size: 30px;
+	font-weight: bold; /*para definir que el estilo va en negrita*/
+}
+
+.productos li:hover h2{  /*Cuanod se posicione en cualquier lugar del productos li, pasa a afectar al h2*/
+	font-size: 33px;
+}
+
+.producto-descripcion{
+	font-size: 18px;/*Le cambiamos el tamaño de la letra*/
+}
+
+.producto-precio{
+	font-size: 20px; /*indicamos el tamaño de letra nuevo*/
+	font-weight: bold; /*indicamos el tipo de fuente, en este caso negrita*/
+	margin-top: 10px;/*Separamos el precio de la descripción con 10 pixeles*/
+}
+.imagenproduc1 {
+	font-size: 50px;
+	width: 100%;
+	padding: 20px 0;
+}
+.imagenproduc2 {
+	font-size: 50px;
+	width: 100%;
+	padding: 20px 0;
+}
+.imagenproduc3 {
+	font-size: 50px;
+	width: 100%;
+	padding: 20px 0;
+}
+
+footer{
+	text-align: center;
+	background-color: wheat;
+	padding: 40px;
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px; /*Margen externo de 20px*/
+}
+
+form{
+	margin: 40px 0; /*Margen de 40px arriba y abajo pero 0 a los costados*/
+
+}
+
+form label, form legend{
+	display: block; /*lo colocamos como tipo block para que ocupe un espacio completo (100% pantalla)*/
+	font-size: 20px; /*cambiamos el tamaño de letra*/
+	margin: 0 0 10px;
+}
+
+.input-padron{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px; /*Con esta propiedad cambiamos el espacio proporcionado por la caja de texto para tener un espacio entre el borde y el contenido*/
+	width: 50%;
+}
+
+.checkbox{ /*Creamos una clase de nombre checkbox dentro del input de checbox para crear un margen*/
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%; /*anchura de 40% del espacio otorgado*/
+	padding: 15px 0; /*espaciamiento interno de 15px superior e inf. pero 0 laterales*/
+	font-size: 18px;/*tamanho de letra de 18px*/
+	font-weight: bold; /*tipo de letra en negrita*/
+	color: white; /*letra color blanco*/
+	background: orange; /*color de fondo naranja*/
+	border: none; /*le quitamos el borde*/
+	border-radius: 10px; /*hacemos un borde redondeado*/
+	transition: 1s all; /*le agregamos retardo para el cambio de calor y el escalamiento*/
+	cursor: pointer; /*Lo que hace es cambiar el estilo del mouse (apunta)*/
+}
+
+.enviar:hover{ /*cuando detecte que se posicionan sobre el boton de enviar*/
+	background: darkorange;
+	transform: scale(1.5);/*Le decimos que aumente el tamaño de todo el elemento*/
+}
+
+table{
+	margin: 40px 40px;/*margen en la tabla */
+}
+
+thead{
+	background: #555555; /*asignamos un color de fondo en plomo*/
+	color: white; /*color de letra blanco*/
+	font-weight: bold;/*tipo de letra en negrita*/
+}
+
+td, th{
+	border: 1px solid #000000; /*le creamos un borde*/
+	padding: 8px 15px; /*espaciamiento interno*/
+}
+
+/*Aquí inicia el CCS para nuestra página HOME*/
+.Banner{
+	width: 100%;
+}
+
+.principal{
+	padding: 3em 0;
+	background: #7ee394;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.TituloPrin{
+	text-align: center;
+	font-size: 2em; /*con el 2em le decimos que sea dos veces el tamaño fuente del navegador*/
+	margin: 0 0 1em;
+	clear: left;/*Le decimos que nos limpie cualquier modificacion que venga despues del titulo*/
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.ImagenUtensi{
+	width: 120px;
+	float: left; /*Propiedad float nos deja un objeto flotando, solo le indicamos la direccion*/
+	margin: 0 20px 20px 0; /*margen de 0 pixeles arriba, 20 der, 20 abajo, 0 izquierda*/
+}
+
+.mapa{
+	padding: 3em 0;
+	background: linear-gradient(#7ee394, #888888); /*la funcion linear-gradient lo que hace es ir haciendo degradado de color*/
+}
+
+.mapa p{
+	margin: 0 0 2em; /*con el 2em le decimos que sea dos veces el tamaño fuente del navegador*/
+	text-align: center;
+}
+
+.mapaconte{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.diferenciales{
+	padding: 3em 0;
+	background: #888888;
+}
+
+.contenido-dife{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-dife{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.items{
+	line-height: 1.5; /*esta propiedad nos ayuda a definir el interlineado entre parrafos*/
+}
+
+.items:first-child{ /*Es una pseudo clase*/
+	font-weight: bold;
+}
+
+.items:before{
+	content: "\2605"; /*codigo en CCS para colocar una estrellita, codigo obtenido de unicode objeto_a_buscar*/
+}
+
+.ImagenDife{
+	width: 50%;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.ImagenDife:hover{
+	opacity: 30%;
+}
+
+.video{
+	width: 560px;
+	margin: 1em auto;
+}
+
+@media screen and (max-width: 480px){/*es un recurso para aplicar excepciones o condiciones*/
+	h1, h2{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.caja, .principal, .mapaconte, .contenido-dife, .video, .central, .productos, .producto-precio, .producto-descripcion, .input-padron{
+		width: auto;
+	}
+
+	.productos, #mensaje{
+		margin: auto;
+		padding: inherit;
+	}
+
+	.lista-dife, .ImagenDife {
+		width: 100%;
+	}
+
+	
+
+}
+
+
+
